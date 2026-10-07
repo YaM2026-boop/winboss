@@ -221,7 +221,7 @@ public class MicrosoftBossEntity extends HostileEntity {
         }
     }
 
-    /** 「开始菜单」：召唤四色小弟（Vex） */
+    /** 「开始菜单」：召唤图标小弟（Vex） */
     private void openStartMenu(ServerWorld world) {
         int count = 0;
         for (Entity e : this.getWorld().getOtherEntities(this, this.getBoundingBox().expand(16))) {
@@ -273,7 +273,7 @@ public class MicrosoftBossEntity extends HostileEntity {
         }
     }
 
-    /** 「弹窗广告」：玩家脚下生成暂留广告方块 */
+    /** 「弹窗广告」：致盲 + 飘浮 */
     private void popupAd(ServerWorld world) {
         LivingEntity target = this.getTarget();
         if (target == null) return;

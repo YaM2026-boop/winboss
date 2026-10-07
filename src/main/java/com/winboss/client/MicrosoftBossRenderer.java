@@ -17,7 +17,7 @@ import net.minecraft.util.math.RotationAxis;
 
 /**
  * 「微软」Boss 渲染器：一个悬浮旋转的四色方块（微软遗物模型）。
- * 第二形态「巨硬」：放大 1.6 倍 + 金属光泽变色。
+ * 第二形态「巨硬」：放大 1.6 倍、自转速度加倍。
  */
 public class MicrosoftBossRenderer extends EntityRenderer<MicrosoftBossEntity> {
 
@@ -39,7 +39,7 @@ public class MicrosoftBossRenderer extends EntityRenderer<MicrosoftBossEntity> {
         float scale = entity.isPhase2() ? 1.6f : 1.0f;
         matrices.scale(scale, scale, scale);
 
-        // 四色方块 + 金属色优化（巨硬形态更暗更硬）
+        // 四色方块
         ItemStack relic = new ItemStack(ModBlocks.WINDOWS_RELIC);
         ItemRenderer renderer = MinecraftClient.getInstance().getItemRenderer();
         BakedModel model = renderer.getModel(relic, null, null, 0);
