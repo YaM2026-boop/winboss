@@ -1,12 +1,10 @@
-# 「微软 → 巨硬」Boss 模组测试清单
+# 测试清单 · WinBoss
 
-> 模组名：winboss-1.0.0.jar
-> 环境：Minecraft 1.20.1 + Fabric Loader 0.15.11 + Fabric API 0.92.11+1.20.1
-> 位置：`C:\Users\李晨阳\AppData\Roaming\.minecraft\versions\ceshi\mods`
-> 备份：`C:\Users\李晨阳\Documents\dsh测试工作区\backup\winboss-1.0.0.jar`
+> 环境：Minecraft 1.20.1 + Fabric Loader 0.15.11 + Fabric API 0.92.2+1.20.1
+> 手动验收用。每次发版前过一遍。
 
 ## ✅ 启动检查
-- [ ] PCL 启动器用 `ceshi` 版本启动，无崩溃
+- [ ] 用 1.20.1 + Fabric 实例启动，无崩溃
 - [ ] 创造模式物品栏出现「微软 Boss」物品组（铜火把/微软遗物/微软剑/硬核徽章/刷怪蛋）
 
 ## 🔥 召唤仪式（微软 Logo 摆法，朝北视角）

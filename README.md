@@ -7,6 +7,7 @@
 用四色火把摆出 Windows 徽标的四个方块，召唤 Boss「微软」。
 打掉它一半血，它会说 ——「*正在将『微软』升级为『巨硬』… 请勿关闭计算机。*」
 
+![Build](https://github.com/YaM2026-boop/winboss/actions/workflows/build.yml/badge.svg)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-3C8527?style=flat-square)
 ![Fabric](https://img.shields.io/badge/Fabric-0.15.11+-DBB69B?style=flat-square)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square)
@@ -110,10 +111,10 @@
 
 1. 安装 [Fabric Loader](https://fabricmc.net/use/installer/) 0.15.11 或更高
 2. 把 [Fabric API](https://modrinth.com/mod/fabric-api) 放进 `mods/` 文件夹
-3. 把 `winboss-x.x.x.jar` 放进 `.minecraft/mods/`
+3. 从 [Releases](https://github.com/YaM2026-boop/winboss/releases) 下载 `winboss-x.x.x.jar`，放进 `.minecraft/mods/`
 4. 启动游戏
 
-> 目前**没有预编译的 jar**，请按下面的方式自行构建（或等待 Release）。
+> 想自己编译也行，见下节。
 
 ## 从源码构建
 
