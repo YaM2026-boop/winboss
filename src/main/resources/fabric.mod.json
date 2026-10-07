@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "winboss",
+  "version": "${version}",
+  "name": "Microsoft Boss - 微软/巨硬",
+  "description": "用四色火把摆出微软 Logo 召唤「微软」，半血变身「巨硬」。微软式中文全程陪伴。",
+  "authors": ["YaM"],
+  "contact": {
+    "homepage": "https://github.com/YaM2026-boop/winboss",
+    "sources": "https://github.com/YaM2026-boop/winboss",
+    "issues": "https://github.com/YaM2026-boop/winboss/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/winboss/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.winboss.WinBossMod"],
+    "client": ["com.winboss.client.WinBossClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}

@@ -1,0 +1,10 @@
+# 默认按文本处理并统一为 LF，避免跨平台换行差异
+* text=auto eol=lf
+
+# Windows 批处理必须保留 CRLF
+*.bat text eol=crlf
+
+# 二进制资源不做转换
+*.jar binary
+*.png binary
+*.ogg binary

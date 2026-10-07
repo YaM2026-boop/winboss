@@ -1,0 +1,13 @@
+{
+  "block.winboss.copper_torch": "Copper Torch",
+  "block.winboss.windows_relic": "Windows Relic",
+  "item.winboss.copper_torch": "Copper Torch",
+  "item.winboss.windows_relic": "Windows Relic",
+  "item.winboss.microsoft_sword": "Microsoft Sword",
+  "item.winboss.hard_medal": "Hard Medal",
+  "item.winboss.microsoft_spawn_egg": "Microsoft Spawn Egg",
+  "item.winboss.win_cow_spawn_egg": "WinCow Spawn Egg",
+  "entity.winboss.microsoft_boss": "Microsoft",
+  "entity.winboss.win_cow": "WinCow",
+  "itemGroup.winboss": "Microsoft Boss"
+}

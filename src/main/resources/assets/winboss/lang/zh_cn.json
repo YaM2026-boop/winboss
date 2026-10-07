@@ -1,0 +1,13 @@
+{
+  "block.winboss.copper_torch": "铜火把",
+  "block.winboss.windows_relic": "微软遗物",
+  "item.winboss.copper_torch": "铜火把",
+  "item.winboss.windows_relic": "微软遗物",
+  "item.winboss.microsoft_sword": "微软剑",
+  "item.winboss.hard_medal": "硬核徽章",
+  "item.winboss.microsoft_spawn_egg": "微软 刷怪蛋",
+  "item.winboss.win_cow_spawn_egg": "旺牛 刷怪蛋",
+  "entity.winboss.microsoft_boss": "微软",
+  "entity.winboss.win_cow": "旺牛",
+  "itemGroup.winboss": "微软 Boss"
+}

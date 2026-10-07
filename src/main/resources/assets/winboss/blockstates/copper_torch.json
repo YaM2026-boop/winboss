@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "winboss:block/copper_torch" }
+  }
+}
